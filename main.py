@@ -5,14 +5,14 @@ pix_endp = "https://pixe.la/v1/users"
 
 #parameters for pixela user creation
 pix_params = {
-    "token" : "ABC123456",
+    "token" : "MySecretToken1",
     "username" : "esseklex",
     "agreeTermsOfService" : "yes",
     "notMinor" : "yes"
  }
 
 headers = {
-    "X-USER-TOKEN" : "ABC123456"
+    "X-USER-TOKEN" : "MySecretToken1"
 }
 
 
@@ -48,10 +48,10 @@ pixel_config = {
 
 #Add pixels as days progress
 
-#input a few days at a time
-
 # add_days = {"date" : "20240902",
 #              "quantity" : "26"}
+
+#input a few days at a time
             
 add_multiple = f"{pix_endp}/esseklex/graphs/graph1/pixels"
 
